@@ -1,10 +1,9 @@
-// Online C++ compiler to run C++ program online
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
 using namespace std;
 
+//using two pointer approach
 int maxArea (vector <int> height){
     int mostWater = 0;
     int n = height.size();
